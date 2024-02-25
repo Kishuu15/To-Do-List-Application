@@ -1,0 +1,112 @@
+body{ 
+  background: rgb(0,0,0);
+  background: radial-gradient(circle at 50.4% 50.5%, rgb(182, 217, 5) 0%, rgb(21, 194, 5) 90%);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.todo-container{
+  background: rgb(41, 33, 33);
+  width: 400px;
+  margin: 0 auto;
+  border: 5px solid #040404;
+  padding: 20px;
+  color: white;
+  border-radius: 30px;
+}
+
+#input-box{
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #050505;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+ 
+#input-button{
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: radial-gradient(circle at 50.4% 50.5%, rgb(251, 32, 86) 0%, rgb(135, 2, 35) 90%);
+}
+
+.task button{
+  background: rgb(12, 124, 251);
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  float: right;
+}
+
+hr{
+  border: 1px solid #0033ff;
+}
+
+#header{
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1{
+  margin-bottom: 20px; 
+  background: radial-gradient(circle at 85.4% 50.8%, rgb(14, 72, 222) 0%, rgb(3, 22, 65) 74.2%);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+}
+
+#input-button:hover {
+    background: purple;
+} 
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align:left;
+}
+
+li {
+  border: 1px solid rgb(2, 2, 2);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.edit-btn, .delete-btn, .complete-btn{
+  float: right;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin: 3px 5px;
+  border: none;
+  padding: 3px 5px;
+  background: black;  
+} 
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(174, 13, 13);
+  border: 1px solid rgb(234, 128, 7);
+}
+footer {
+    background: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);
+    color: #0b0b0b;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
